@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidProjectFinal</string>
+    <array name="category"/>
+    <string name="food"/>
+    <string name="drinks"/>
+    <string name="accesories"/>
+</resources>

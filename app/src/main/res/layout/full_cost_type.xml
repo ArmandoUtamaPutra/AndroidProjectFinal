@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="FULL COST TYPE"
+              android:textAlignment="center"
+              android:textSize="30sp"
+              android:textColor="#ba8d05"
+              android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+    />
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:id="@+id/fct_choose"
+                  android:background="@drawable/fullcosttype"
+                  android:backgroundTint="#afaca3"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+    >
+        <ImageView android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:src="@drawable/ic_upload"
+                   android:layout_gravity="center"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Upload Images"
+                  android:textAlignment="center"
+                  android:textColor="#fff"
+                  android:textSize="15sp"
+        />
+    </LinearLayout>
+
+        <ImageView android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:id="@+id/inputimage1"
+                   android:src="@mipmap/ic_launcher"
+                   android:layout_gravity="center"
+        />
+
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="How Long?"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_marginTop="20dp"
+    />
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="How Much Budget Do You Have?"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+    />
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="How Many People"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+    />
+    <LinearLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:id="@+id/set_location"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginBottom="20dp"
+    >
+        <ImageView android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/ic_location"
+                   android:layout_gravity="center"
+        />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Set Location"
+                  android:textColor="#000"
+        />
+    </LinearLayout>
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Description"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+    />
+    <Button android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Post"
+            android:background="@drawable/post"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:id="@+id/btn_post1"
+    />
+
+
+</LinearLayout>
